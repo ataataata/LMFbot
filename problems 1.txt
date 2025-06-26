@@ -1,0 +1,172 @@
+# Microscope problems, issues and questions that apply to all or most of our microscopes
+
+## Getting human help
+
+To get help from a human LMF staff member, the fastest way to get help
+is to message the LMF team using Microsoft Teams and start a new chat
+and type “LMFStaff” all one word) in the “to” field and hit enter. The
+current staff members will appear in the chat message. If you message
+during regular business hours, you are very likely to get a rapid
+response.
+
+## PC or monitor appears to not turn on
+
+If you are getting a blank screen or it seems that the monitor won't
+turn on, please be sure you have begun your reservation on Corum. This
+controls the system remotely via the internet.
+
+## Focus or Z-position not matching when running z-stack experiment
+
+If you get an error when you try to run z-stack try this solution.
+
+1\. Go to the Devices menu bar on top and be sure you have the right
+z-device selected under “z-device”. Typically, you want this to be set
+to “TI Drive” or “Ti2 Drive”, depending on the microscope body. If you
+are using the Piezo (if it is an option, is faster and is used on the
+SIM and sometimes on the Crest.) then choose that.
+
+2\. In the N-D Acquisition tab, in "z-devices" choose the same device
+selected in step 1. This should fix the problem.
+
+## Focus or Z-position not changing when using physical focus knobs
+
+If you can't change the z-value using the focus knobs or you can't move
+the lens up or down, it probably means the escape button was pressed by
+the last user. On a TI-E microscope body (tan microscope stand), look on
+the right side of the microscope click and hold escape button. While
+holding that button press refocus. This will release the lock safely. If
+you are on one of the newer Ti2 scopes, then find the similar button on
+the microscope body.
+
+## Issues with running Nikon Elements software
+
+### If this occurs on a microscope PC
+
+If you run Nikon NIS-Elements and you receive a warning saying that
+another instance of the application is running, it simply means another
+user didn't close out correctly. If this is happening on any of our
+microscope computers, the easiest and quickest way to fix it is to
+simply restart the computer to bump the other user off and reset the
+software license. Once it reboots, everything should work well.
+
+### If this occurs on the HIVE
+
+If you have this issue on the HIVE, then another user might be running
+behind and using up a license. If this is the case, check Corum to see
+who it might be and send them a chat message on Microsoft Teams. If this
+occurs during business hours, feel free to reach out to LMF staff.
+
+## If you get a hardware error message when your run Nikon Elements
+
+If you are getting an error message about hardware loading failing, it
+is ok. This is most frequently caused by something not being turned on
+in the system, or something being turned on in the incorrect order.
+First, check that all numbers for the microscope setup have been turned
+on. If something is off, turn it on, then restart Nikon NIS Elements and
+see if the problem persists. If there are still issues, turn off the
+setup completely and start from the beginning, making sure to leave ten
+seconds in between turning each numbered switch on.
+
+## If you can’t get an image to show up on the computer screen
+
+If you can see your sample correctly through the eyepiece but you don't
+see anything on the screen here are a few things to check. Did you click
+the Nikon A1 or camera light-path tab to switch to the camera or
+confocal setting? Did you click an OC (optical configuration, they are
+the buttons on each tab)? For the scanning confocal microscopes, if you
+see a red button that says, "remove interlock", click it. This will
+remove the interlock that is blocking the light. This is a common
+pitfall on the A1R25 and A1RMP. Is the sample in focus and directly
+under or above the sample? Go back to the eyepiece setting and
+double-check as it could have moved or might be off-center. For A1RMP,
+is the knob next to the eyepiece on "F"? Is the shutter at “O” (open)
+setting? Is the filter position at "1" (empty)? Did you wait long enough
+for the lasers to warm up? If you see lights blinking on the large box,
+the lasers are still warming up so just give them a few more minutes.
+
+## If you are getting an error about the camera when you launch Nikon Elements
+
+If you are getting an error about a camera, it usually means that the
+camera might not have connected correctly. Please shut down the PC (wait
+till lights on PC turn off), turn off camera, then turn camera back on
+and wait for blinking on back to stop. Finally, start the PC. That
+should do it! You should not have to restart any other devices to solve
+this issue.
+
+## If you can’t see anything through the eyepiece
+
+Here are things to check when you can't see through the eyepiece:
+
+1.  Are you on the “eyepiece” tab in the Nikon NIS Elements program? The
+    eyepiece tab needs to be selected to see light through the eyepiece.
+
+2.  Did you select an OC (optical configuration)? You need to select an
+    OC (the buttons that are labeled “green” “BF”, “TRITC”, “red”, or
+    “FITC” or other things like that in the eyepiece tab).
+
+3.  When the correct tab and OC are selected, does the correct button
+    (labeled eye) on the front of the microscope turn light up in green.
+    If not, press the button manually, then right-click on the OC and
+    click “assign current microscope setting”.
+
+4.  Is there an objective under your sample? If not, select one by
+    clicking the icon on the left side of the screen.
+
+5.  Is your sample directly above the objective?
+
+6.  Is your sample in focus? You might not see anything until you are
+    close to the focal point.
+
+7.  Did you turn everything on in the correct order? If not, turn off
+    all devices and turn them back on in the correct order.
+
+8.  For A1R25, is the small pad (switch number 5) turned on? Try
+    pressing the buttons to turn up the light intensity. V- violet
+    (blue), GR- green, R- red.
+
+9.  For A1RMP, the knob on the right side of the eyepiece needs to be on
+    “BINO” and the shutter above the objective needs to be on the “o”
+    (open) configuration. Also, make sure to turn on the light. Press
+    the white button on the table for BF and step on the footswitch for
+    fluorescence. For fluorescence, you also need to turn the wheel to
+    the correct position (2 is blue, 3 is green, and 4 is red) that is
+    not 1.
+
+## If the program is running very slow or is frozen
+
+If the software is frozen or running extremely slow, you should close
+the software and reboot the PC. Leave the hardware all turned on during
+this. Once the PC is back up and you are logged in, check the C-drive to
+be sure it is not full. If it is, please message core staff. The reboot
+usually frees up RAM resources and solves the issue.
+
+## If you think the stage isn’t moving very fast or isn’t moving at all.
+
+If the joystick seems to not be moving and yet the lights are on the
+joystick, it is probably set to move excruciatingly slow. If you are on
+a Nikon T-I-E (tan microscope body), the joystick speed can be changed for
+xy movement by twisting the joystick stick. Watch the orange light. If
+you are on a Nikon Ti2 (white/black microscope body), click the “z”
+button that has 3 up-arrows above it. It cycles through extra fine,
+fine, and coarse.
+
+## If you think your image looks grainy or has low resolution
+
+If your image looks grainy or like it is low resolution, it is probably
+an issue with the sample, the focus, or an error. If you are certain
+that you are in focus AND you are sure you have fluorescence (by using
+the eyepiece with epifluorescence), did you have an error when you
+booted up? if so, restart the PC and the microscope controller box. If
+you don't see the fluorescence signal by eye, you very likely will not
+see it on the software. It is not magic, unfortunately. It sometimes
+helps to clean the objective and the sample glass.
+
+## I have an error with Windows at boot up on the Crest system
+
+If you see an error before windows even boots up, please follow the
+instructions on the screen. You may need to fully shut down the PC and
+restart. If you are using the Crest microscope, be sure to turn on the
+camera first and wait for about 2 minutes until there are no blinking
+lights at the back of the camera. Then start PC, laser box key, and
+Crest device and you should then be ready to image on the Crest
+microscope.

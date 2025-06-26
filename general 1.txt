@@ -1,0 +1,38 @@
+# **<u>General information about the Light Microscopy Facility (LMF)</u>**
+
+## Microscopes we offer
+
+As of November 2024, the UMass Amherst Light Microscopy Facility (LMF)
+has almost 20 microscopes. Our scanning confocal microscopes consist of
+A1SP, A1RSIM, A1R18, A1R25, A1RMP, and the AXR-NSpark.
+The A1 series of confocal microscope are the older generation, and the
+AX series is the newer one. The A1RMP is an upright microscope that
+has both visible and infrared laser sources for either single or two
+photon experiments. The facility also has three spinning disc confocal
+microscopes, two of which are available to users and are called the
+SDX1 and the Crest. We also have two Tirf microscopes, one which can
+perform single molecule experiments (Storm, Palm, and DNApaint). We
+also have a stereoscope called the SMZ18 which is good for macro
+photography and is quantitative in both intensity and size measurements.
+Our Keyence is a very easy to use epifluorescence and brightfield
+microscope that allows for fluorescence and colorimetric imaging of
+slides, dishes, or well plates.
+
+## Image analysis server and software for users
+
+The LMF also provides access to image analysis software. To use this,
+you can request access to the Hive from LMF staff. On the Hive you will
+find Nikon Elements Analysis packages including General Analysis 3
+(GA3), deconvolution, as well as the ability to train your own AI to use
+for segmentation, image clean up, etc. in your analysis pipeline. You
+can run your analysis pipeline in batch mode so it works on its own
+while you do more important work.
+
+## If you have an emergency or need emergency assistance
+
+If you get a cut or are hurt in some other way or if there is an emergency, let us know as soon as you are
+safe or when no one else is in harms way. Please help yourself to the
+emergency kit on the big table in the middle of the room. Depending on
+the situation, contact EHS (4135452682, closing hours hotline
+4135453630), UMass police department (4135453111), or the local
+police (911).

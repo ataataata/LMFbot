@@ -1,0 +1,344 @@
+# Tips and tricks for image acquisition and analysis
+
+## If you want to change the displayed color of your image or channels
+
+If you want to change the channel color in the software, it is easy. In
+Elements you can change the color of old data or change it for future
+data. For old data, right click on the image channel tab at bottom of
+image and choose “properties” and then set your desired color. To change
+color for future data on a confocal, click "Detector", then click the
+desired channel color. To change future color on other microscopes,
+right click on the optical configuration button and click “edit” and
+then find the color you like.
+
+## If you want to use more than 3 or 4 fluorophores
+
+To image four or more colors, we recommend consulting an LMF staff
+member to ensure that there is minimal to no bleed through and that you
+are seeing what you want to be imaging. In general, you want to image
+your furthest red color first and your bluest color last to minimize
+photobleaching. Just about all our microscopes can image 4 fluorescent
+colors plus a transmitted channel easily. Some of them can do more using
+spectra imaging, fluorescence lifetime imaging, or special filter sets.
+Ask staff for more information if you want to learn more about these
+options.
+
+## Can I get confocal images of my color-stained sample with transmitted light?
+
+Unfortunately, confocal imaging is only for fluorescent samples, and
+because of how it works, you can't do confocal imaging with bright-field
+settings. However, you can still do a z-stack with bright-field to get a
+3D image on almost all our microscopes. Please keep in mind that you
+will not achieve the same resolution as an actual confocal image. If you
+have a sample with a non-fluorescence-colored stain, the Keyence
+microscope will work the best and it is super easy to use. Please
+contact LMF staff for a consultation and we can help you figure it out.
+
+## Can I do live cell imaging with incubation?
+
+If you do not yet have access to the stage-top incubators on Core-Um, send
+LMF staff a message on teams. Once you have access on Core-Um we can show
+you how to use it if need-be. It is not difficult, but it is easiest to
+show you in person. We have a few options that work for chamber slides,
+dishes, or well plates. We also have 5 percent carbon dioxide at various places
+around the main lab that you can use. You can reserve the incubators and
+for carbon dioxide on Core-Um. If someone else has the carbon dioxide reserved for the time you
+want to use it, please let us know or contact the other user to arrange
+the times (so that your carbon dioxide supply doesn't get cutoff in the middle of
+your experiment).
+
+## Where is the best place to put my data?
+
+You can use any cloud-based service or a USB drive to take data when you
+leave. We also suggest that you use our enormous and free network
+attached data server that is in LSL. To use our network attached
+storage, you will need to put in a request from your advisor. The form
+can be found at the website umasslmf.dev
+under the analysis workstations link at the top of that website. Be sure
+you and your advisor carefully read that page and form. Once you are up
+and running, you can copy data from the microscope PCs to the shared
+folder from any LMF computer and access that data from anywhere in the
+world.
+
+## If you need starter optical configurations or lost your settings
+
+To import starter settings in Nikon Elements run NIS-Elements, go to
+"Calibration" and choose "Optical Configurations" (top menu). Then click
+import and find the most recent xml file in the data-drive (the file
+might have a slightly different name). The new software uses light paths
+that hold OCs that are appropriate. For instance, Nikon A1 has all the
+confocal settings (you can add more), Eye-Epi is Eye epifluorescence.
+Once you have them imported from my template file, you can add more. You
+can also import settings from old data. Simply open a ND2 and
+right-click on that image and choose "reuse camera settings" and then
+"reuse device settings". Then click "add" on the top right of the screen
+to add that as a new config. (be sure to un-check the objective in the
+pop-up window after clicking add).
+
+## If you are having issues getting good brightfield or transmitted or phase contrast or DIC light images
+
+If you are having difficulty getting Kohler illumination set up, here is
+what I suggest: First move to a low mag objective like 10x and then get
+focused via Eye bright-field as best you can. As you look through
+eyepiece, close top diaphragm slowly and watch for the leaves of the
+iris or aperture. Once you see a dimming, focus the condenser lens up
+and down slowly until the dark/bright contrast is in focus. You should
+see a sharp delineation between bright and dark. Next, center the
+"spotlight" with the two thumbscrews on the front of the condenser
+gently, and close iris as you do this. If you are on a Nikon T-I Two
+microscope, you will need some tools to do this – please consult with
+LMF staff. Next, just open top iris until your field of view is just
+filled. Then you can move up in magnification.
+
+## What is saturation and how does it work?
+
+Much like a coffee mug left out in the pouring rain and about to
+overflow, digital detectors (Photomultiplier tubes on the scanning
+confocal microscopes, cameras on the other microscopes) can only hold so
+much signal; 0-4095 for 12-bit and 0-65535 for 16-bit. If the detector
+is full and you add in more photons like the final rain drop from your
+sample, the detector will saturate or overflow and you will not be able
+to quantify that data.
+
+## Which microscope or channel should I use to image a certain fluorophore?
+
+Even without the "perfect" filter sets for your precise dye/color, it is
+almost always possible to visualize any fluorophores - from blue to near
+infrared. All our microscopes are equipped with the basic filter sets to
+image the common fluorophores. This includes blue, green, red, and far
+red, and sometimes near infrared. Some microscopes have lasers/filters
+specific for C-F-P and Y-F-P. Additionally, we have a spectral detector
+microscope (A1-S-P) that can discern closely grouped fluorophores.
+Finally, our Flim (fluorescence lifetime imaging microscopy) system can
+be used to discern even two different green fluorophores, for example,
+F-I-T-C and G-F-P!
+
+## How should I apply oil and clean oil from oil objectives?
+
+Here is a quick how-to on oil objectives - be sure you are using number
+1.5 cover glass.
+
+1\) Move Z-drive (focus knob) to zero (or as low as it can go).
+
+2\) Then rotate in an oil objective. Be sure it is an oil objective by
+looking at the text on the objective‚ if it does not say oil, do not
+apply oil as that will be an expensive mistake.
+
+3\) Carefully and cleanly apply one drop of oil to the top lens of the
+objective without touching it - simply transfer the drop. If you drip
+any elsewhere it is ok, just clean it up immediately so it does not make
+a mess.
+
+4\) Next, place the sample on the stage.
+
+5\) I recommend using an Eyepiece configuration with the light power set
+to low. As you increase the z-value, the oil will touch the coverslip,
+and you will see a change in the optics like a flash.
+
+6\) You can now focus as you are probably close to the correct focal
+plane. One drop of oil should be enough for a few fields of view.
+
+When done be sure to clean the oil off the objective using lens tissue.
+Here is how you will clean it when done (this is required):
+
+1\) Move Z-drive (focus knob) to zero (or as low as it can go).
+
+2\) Remove sample.
+
+3\) Rip a lens tissue in half.
+
+4\) Drop one half on oil on objective and drag to the side with no
+downward pressure. Do this with clean parts of tissue until no visible
+oil is being absorbed.
+
+5\) With the other half of the tissue sheet, spray once with lens
+cleaner and repeat step 3 until clean.
+
+6\) Look at the objective from a shallow angle - if clean it should look
+mirror-like with no visible residue.
+
+## If you want to use the mouse to control focus and Z
+
+To enable the mouse to control the focus or z-position, go to top bar of
+Nikon Elements and look for the devices menu, then find mouse joystick
+set up and choose Ti (or Ti2) Z-drive. Then go to devices again and
+click “enable mouse joystick”. To control XY movement of the stage with
+the mouse, on a Live image, look for the icon at the top of the image
+that kind of looks like a map compass. These controls only work when
+looking at a live image.
+
+## How can I display a scale bar or measure things in my image?
+
+To display a scale bar on the Nikon software, you can simply click the
+icon on the right side of your image that looks like a scale bar. If you
+pull down the arrow, you can have access to options (color, font, etc.)
+This will add it as a layer and not destroy underlying data, unless you
+burn it - then it destroys pixels under the bar. For the Keyence
+Analyzer program, go to "Insert" and then “Scale". If you are using
+Fiji or Image-J or another program, you need to manually enter the
+calibration because the metadata on the Tiff file generated on Keyence
+program cannot be read by programs other than the Keyence app. In the
+Analyzer app, go to Insert, scale, then click Calibration "Setting" and
+write down the number you see there (micron per pixel). Then, convert it to the
+right unit (divide one by that number for Fiji or Image-J) and in
+Fiji or Image-J go to “Image” then “properties” and enter the number.
+
+## How can I get some help with experimental plans?
+
+We are available for free consultations to all members of the UMass
+Amherst community. Please email us at lmf@umass.edu or message us on
+Microsoft teams. We also offer free office hours or calendly as well as
+chat sessions to help you out with getting started on the right path as
+you begin using our facility. Basically, if you need some help, we are
+here to help you so please just get in touch. You aren’t bothering us,
+it is our job.
+
+## Can you describe what gain means and what it does?
+
+Gain refers to the voltage applied to the detector. If you turn it too
+low, you will not see photons and if you turn it too high, you will see
+too many photons (maybe) but also way more noise. In general, keep gain
+below 20 on the scanning confocal microscopes and usually keep it
+vertically aligned with the laser power, especially on the green and red
+channels.
+
+## Are there costs associated with training and getting help?
+
+All LMF users are charged a training fee to cover staffing and for each
+microscope they are trained to use. After training is complete (as
+judged by the Director), the solo-use fee applies for future usage.
+Additionally, we staff are available for dedicated imaging for a fee.
+All fees can be found on the rates tab on our main website which can be
+found at the UMass Institute for Applied Life Science website when you
+navigate to cores and then light microscopy facility.
+
+## If you runout of supplies
+
+If you run out of objective oil, lens tissue, lens cleaner, or any other
+supplies, please contact LMF staff via Microsoft teams or send us an
+email. If this is during non-office hours or holidays, borrow some from
+a nearby microscope desk or the center table (but still send us a
+message, please, so we can replace it at our earliest convenience.)
+
+## How can I view my data on my own computer or laptop?
+
+Most of the images acquired in the LMF will have an image format that is
+not readable by the basic image viewers built into Windows and Mac
+computers (e.g. Windows Media Viewer or Preview). Here are a couple free
+solutions: Fiji is a freely available distribution of Image-J that comes
+pre-bundled with a number of useful plugins, including Bio-Formats which
+can read that vast majority of proprietary image formats used in
+microscopy, such as the .ND2 files acquired when using Nikon Elements.
+Nikon NIS-Elements Viewer is a free standalone program to view image
+files and datasets with the Nikon .ND2 file format. It offers the same
+view and image selection modes as the NIS-Elements core packages and has
+the same look and feel as the NIS-Elements core packages but lacks the
+advanced analysis features of Nikon Elements.
+
+## Is there a checklist to get me started?
+
+If you don't know where to get started because it has been a while since
+your training, go over the new user checklist, look through information
+posted on Microsoft teams (look in "files" tab and in the "general"
+channel), or contact LMF staff on Microsoft teams. Also come to office
+hours (Look at first post on this website for info) to get help with
+experimental design, automated imaging, using advanced features of the
+NIS elements software, or analysis.
+
+Here is the new user checklist:
+
+1\) Turn devices on in the correct order. Make sure to wait 10 seconds
+in between.
+
+2\) Login with your UMass credentials. - if you didn't need to do this,
+you might be in someone else's account.
+
+3\) Start NIS Elements.
+
+4\) Select the correct objective by clicking an objective icon on the
+right-hand side. Make sure you use oil if it says “oil” when you hover
+over it.
+
+5\) To look through the eyepiece, click the “Eyepiece” tab AND select an
+Optical Configuration (OC) (the buttons labeled “green” or “FITC”).
+
+6\) Focus on the sample using the knob on the side. You can change the
+speed of the joint stick or the z-knob by pressing the button with three
+arrows or twisting the stick.
+
+7\) Once it is in focus, switch to the confocal tab (labeled “A1” or
+something similar) AND select an OC.
+
+8\) Click the play button on the right to see live.
+
+9\) Use the histogram to adjust exposure time (spinning disk confocal
+microscopes), laser strength, and gain (scanning confocal microscopes).
+Avoid saturation. Right-click the red exclamation mark on the O-C and
+select “assign current settings” to save the changes you made. To create
+a new OC for your experiment, click “Add+” on the right corner.
+
+10\) To adjust contrast, move the line on the Look-Up Table (LUTs).
+
+11\) To take a picture, click the camera icon next to the live play icon
+on the right side.
+
+12\) To take a z-stack, large-image, time series, or multipoint image,
+use the ND acquisition tab (if you don't see it on your screen, go to a
+gray area on the screen, right-click, then select “acquisition
+controls”, then select “ND acquisition”). Make sure you click the
+checkbox of all settings you want to use on the tabs.
+
+13\) Once you are done, lower the objective to 0 (or the lowest it
+allows you to go) and then move an empty spot under the sample holder.
+
+14\) Restart the computer (turn off if crest) and then stop your
+reservation on Core-Um.
+
+15\) \*Look in “posts” and “files” tab in Microsoft teams for the
+microscope you are using or “General” for more information about the
+facility and the microscopes.
+
+16\) \*\*Common questions you can ask the bot: “can't see through the
+eyepiece” “can't see through the camera” “no light” “I'm getting an
+error”.
+
+## So, you’d like to reorient or rotate your sample on the screen while imaging.
+
+If you'd like to rotate an image while acquiring on a scanning confocal,
+go to the Scan area, you can shrink the green box a little and then grab
+the green circle with the mouse and spin it to an arbitrary angle. Then
+right-click to send the settings to the confocal hardware.
+
+## If you want higher contrast images for the brightfield or transmitted channel, you can use DIC on some microscopes.
+
+To adjust DIC, first slide the polarizer to the right (out of path),
+then move manual wheel to an open position (not N1 or N2, for instance).
+Then you will want to perform Kohler illumination on the microscope
+after focusing on your sample. Next, put the DIC optics back in and
+check. If it is still too dim at camera or eyepiece, open the aperture
+below the N1 or N2 position to allow more light in. If it is still too dim,
+be sure you have removed the top ND, or GIF, etc. filters by sliding them out
+from each side. Finally, be sure the DIC prism and analyzer are
+installed under the objective and in the turret. For more information or
+help with this during business hours, please reach out to LMF staff.
+
+## How can I improve my resolution?
+
+Often contrast is confused with resolution, and it is often a focal
+issue. So, if your images don't look as crisp as you expect them to be,
+try these steps:
+
+1.  Make sure the sample is focused.
+
+2.  Clean the cover glass or the material that is covering the sample.
+
+3.  Clean the objectives with lens cleaner. Sometimes 10x and 20x
+    non-oil objective gets dirty and that can cause the images to be
+    blurry.
+
+4.  Image your positive control samples first to make sure that your
+    sample is bright enough.
+
+5.  Prepare a thinner sample.
+
+6.  If you think a higher resolution may help, try using Nyquist.

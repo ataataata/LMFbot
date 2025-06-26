@@ -1,0 +1,134 @@
+## User asked: I am currently unable to use the A1-R-SIMe microscope due to an issue where it says, "Unable to connect device EXFO X-Cite 120"
+
+LMF staff replied: You can simply ignore that as it will not affect
+confocal imaging. There is probably a loose connection at the back of
+the green and white box that is on the right side of the microscope.
+Feel free to check those cables if you are up for it.
+
+## User asked: When I run Nikon Elements, I get a startup error that says "select the confocal simulator to be loaded" 
+
+LMF staff replied: To fix this, close Nikon N-I-S elements, power off
+Nikon A1 box at the back wall, then power on and relaunch software.
+
+## User asked: Does anyone know how to save the Maximum intensity projection images as a tiff? I save the image but it doesn’t save as the MIP
+
+LMF staff replied: When you view it, you are right - it saves as a
+regular z-stack. To create a maximum intensity projection for saving, go to ND Processing under
+Image, then find create max intensity projection and save that result.
+
+## User asked: I could not see the signal and no excitation laser on the Flim system on the A1-S-P microscope. Could anyone around help me?
+
+LMF staff replied: Check that you have turned on the correct pulsed
+laser control unit that is to the left of the A1-S-P microscope.
+
+## User asked: What is the pixel size for the CellCyte microscopes?
+
+LMF staff replied: The size of the pixels for images acquired from the
+CellCyte microscopes (this is not true for other microscopes in the
+facility) is 0.234 micron per pixel.
+
+## User asked: I just started up the Crest and I have a POST error saying fatal P-C-I error.
+
+LMF staff replied: That is a common error that usually occurs when the
+PC is turned on before the camera is fully on. It makes the computer
+crash. Try to restart the procedure of turning on the microscope. Make
+sure you start with the computer off as the first step and then proceed
+with the rest of the steps, waiting about 2 minutes after you turn the
+camera on before powering up the PC.
+
+## User asked: I am on the Crest and when I run Elements it says it can’t open camera device Prime 95B.
+
+LMF staff replied: To solve this, do windows shut down then wait for PC
+lights to turn off fully. Next, then turn off camera if it is on, then
+turn camera back on and wait about 2 minutes, then turn PC back on and
+launch software again.
+
+## User asked: How do I figure out the pixel size for images that I collected in the Light Microscopy Facility
+
+LMF staff replied: Almost always, the pixel size is listed in the image
+file. It is part of the metadata that can be viewed with Nikon Elements
+and other software like Fiji. Look for the word calibration.
+
+## User asked: Does anyone know if there is a way to copy a portion of a GA3 recipe from one into another? 
+
+LMF staff replied: There isn't an easy way to copy a part of one recipe
+to another, but you can make a shared function by grouping part of a
+recipe and then call that function in other GA3 recipes.
+
+## User asked: I am having trouble with Nikon Elements crashing when I am analyzing images using the HIVE server.
+
+LMF staff replied: Sorry to hear that. Often the cause of this crashing
+is that you might not have set your temporary directory in the settings.
+To do this, double click on the top bar of Elements and then at the
+bottom of the “General” tab, change the Temp folder to the subdirectory
+called “Temp” that you can find in the E-drive.
+
+## User asked: I am using the Keyence microscope and when I try to run the Keyence Viewer software, I get a pop-up that says “Already running.”
+
+LMF staff replied: Thanks for your question. To solve this problem,
+you’ll just need to restart the PC. This will end the disconnected
+session and start fresh.
+
+## User asked: How can I figure out the pixel calibration or size for imaging I acquired on the Keyence microscope?
+
+LMF staff replied: Tiff files saved with Keyence software/analyzer has
+metadata that’s not compatible with Fiji or Image-J. If you use the default
+calibration on the tiff files for your scale bars, it will not be
+calibrated correctly. To display an accurate scale bar, you’ll need to
+manually enter the right resolution in Fiji. To do this;  
+1. Find the resolution info on the Keyence analyzer. It is under Insert
+then scale then calibration “settings“  
+2. Then in Fiji, do image then properties or go to analyze then set
+scale and enter the number you got from step 1.
+
+## User asked: I have a question regarding collecting tiled or large images. I collected two large images with a 10 by 10 array and on one of them there appears to be a repeating area. Do you know the reason?
+
+LMF staff replied: It appears that the stage or the sample didn't move
+with the image that has the repeats, but it did with the other one. I
+have seen this happen in certain cases, often when an oil objective is
+used. Because the oil has high viscosity, it can "drag" the sample
+around with it if the sample is not clamped down. To prevent this
+movement, feel free to use some black painter's tape to hold the sample
+to the holder. You can find it on the big table in the middle of the
+room or you can ask LMF staff.
+
+## User asked: I can’t run Fiji on the HIVE because it is giving a “permission denied” error.
+
+LMF staff replied: This happens with the auto-update feature. Please
+send a message to Jim and he can update the software as administrator
+and the problem will go away.
+
+## User asked: I am working with Nikon Elements on the HIVE for image analysis and for some reason when I try to use most of the features in Elements they are all greyed out and not available. Do you know how I can fix this?
+
+LMF staff replied: This often happens as some features require you to
+have an image open before launching. This happens when trying to use
+analysis explorer, GA3, and the tracking module. Probably affects other
+things as well. Please give that a try.
+
+## User asked: Do you still do office hours for help?
+
+LMF staff replied: We stopped doing regular office hours as we
+discovered that a calendly link works best. To schedule time with Jim,
+visit umasslmf dot dev and you should see a
+calendly link. If you don’t see the link, use the search function on
+that site or simply email Jim.
+
+## User asked: We have a new user in my lab and they want to get started with using resources in the Light Microscopy Facility. How should they proceed?
+
+LMF staff replied: The easiest way to get them started is to have them
+email Jim. Providing some information on the types of data they hope to
+collect is always a good idea so that Jim and his team can steer them
+towards the best microscope choices for their research questions.
+
+## User asked: The microscope computer I am using says it needs to do a Windows update. What should I do?
+
+LMF staff replied: You can pause the update during your imaging session.
+When you are done, it would be wonderful if you could restart the PC so
+that the update is applied. Thank you.
+
+## User asked: I need to update my speed type number in Corum. Who can help me with that?
+
+LMF staff replied: Your lab’s bookkeeper should be able to do that in
+Corum, but if you run into any trouble, you can simply email Jim with
+the number and he can activate you as a purchaser.
+

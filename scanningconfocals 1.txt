@@ -1,0 +1,60 @@
+# **Scanning confocal microscopes in the UMass LMF**
+
+## Photoactivation, Photobleaching, FRAP, FLIP experiments
+
+Any of our Nikon A1 confocal microscopes or our Nikon AX confocal
+microscopes can easily perform photobleaching (FRAP) experiments or
+photoactivation (PA). Additionally, our X1 spinning disc microscope can
+do the same and is generally better for live cells or fast-moving
+fluorophores. To perform a FRAP or PA experiment, in Nikon Elements
+software you choose a small region using the region of interest (ROI)
+editor to photo-bleach or a line or a point or any shape you desire, set
+it as a stimulation ROI and then use the stimulation module. You can do
+repetitive stimulations using N-D stimulation module or other ND modules
+in the software. These can be found by right-clicking on a blank part of
+the background of Elements and finding analysis controls.
+
+## Common errors on the scanning confocal microscopes
+
+If you are getting an A1 Simulator or simulation error, the reason is
+that things were either not shutdown correctly or were started
+incorrectly. Here is what I need you to do: Close the Nikon software if
+it is open. Find the large Nikon box next to the microscope table (this
+is not the Nikon box with the lasers). Look for a square push button
+power switch on the left side of the box for the A1 confocal microscopes
+and a large circle button at the front for the AX confocal microscopes.
+When you find it, click it to turn off that box. Wait 15 to 30 seconds,
+push button on box to power it up. Wait for the lights to stabilize and
+then run NIS Elements. This should solve the error. If this does not
+solve the error, shut everything off in order (high number to low, with
+10 seconds in between) and restart all devices and NIS Elements.
+
+## If you want to gather optimal pixel size resolution pictures on a scanning confocal.
+
+The Nyquist criterion requires a sampling interval of about twice the
+highest spatial frequency of the specimen to accurately preserve the
+spatial resolution in the resulting image. If sampling occurs below that
+required by the Nyquist criterion, details with high spatial frequency
+will not be accurately represented in the final image. The Abbe limit of
+resolution for optical images is approximately 0.22 micrometers (using
+visible light), meaning that a digitizer must be capable of sampling at
+intervals that correspond in the specimen space to 0.11 micrometers or
+less. A digitizer that samples the specimen at 512 pixels per horizontal
+scan line would have to produce a maximum horizontal field of view of 56
+micrometers (512 x 0.11 micrometers) to conform to the Nyquist
+criterion. An interval of 2.5 to 3 samples for the smallest resolvable
+feature is suggested to ensure adequate sampling for high resolution
+imaging.
+
+## If you see stripes on the screen when using a scanning confocal microscope
+
+If you see stripes on the screen, it probably means the scanning
+confocal control box needs to be reset. This is the "simulator error"
+that is quite common in a multi-user facility.
+
+## If you see a dialogue popup saying dummy to position 1
+
+If you get the pop up indicating something about "Dummy to position 1"
+you can just ignore it. If it is annoying, you can remove it by clicking
+"Light path" at top right, then the gear icon at bottom left and uncheck
+the dummy warning box.

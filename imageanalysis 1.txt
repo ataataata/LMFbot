@@ -1,0 +1,84 @@
+# **<u>Image analysis server and questions and problems</u>**
+
+## About the Hive image analysis server
+
+There is a new Image Analysis server called LMF-Hive. It is accessible
+via remote desktop interface and can handle up to 16 concurrent users.
+It has 2.0 terabytes of RAM and five high-end GPU cards. It has various open-
+and closed-source image analysis packages preinstalled for your usage.
+If there is software that you need, please reach out to Jim Chambers to
+discuss.
+
+## How to use the Hive and Nikon Elements
+
+<u>1) Make and begin your Core-Um reservation if using NIS Elements</u>
+
+- We have 4 “seats” for Elements, each with GA3, AI, deconvolution, etc. All of
+  them are equivalent and on the same machine.
+- To use open source software, no need for Core-Um reservation for now.
+
+<u>2) Connect to the Hive</u>
+
+- Don’t skip this part – I am putting it here so you read it.
+- For NIS Elements, <u>on first run</u> you will get a “low disk space
+  error”.
+- Type the letter Q
+- At the bottom of the “General” tab, change the Temp folder to E:\Temp
+- If you do not do this, Elements will crash
+
+- If you don’t have it already, install Microsoft Remote Desktop client
+  software on your Mac or PC.
+- Note that we now offer in-person terminals to access the Hive on a big
+  screen.
+- Add a new PC connection and use this address:
+  LMF-HIVE.CAMPUS.ADS.UMASS.EDU
+- Connect to the “Hive” remote computer by logging in with your UMass
+  credentials
+- To connect from off-campus, you will need to install and use the UMass
+  IT VPN.
+
+<u>3) Use the analysis software of your choice</u>
+
+- Select the software you need for your work – if missing, let LMF staff
+  know, and we will install.
+
+- Data can be ***<u>temporarily</u>*** stored on the data drive E in
+  “Hive-User-Projects” and make a subfolder with your advisor’s last
+  name.
+
+- Data will be removed in a first-in, first-out scheme.****   
+  **(i.e. don’t plan on finding your data here in 2 years)**
+- **This is just for active data.**
+
+- Make judicious use of the IALS-Core-Shared folder for data storage and
+  movement.
+
+<u>4) Moving data to/from the Y-drive</u>
+
+- To connect to the Y-Drive server from a Mac, go to finder, then Go,
+  then Connect to Server and type smb colon slash slash 172.19.83.114 in
+  the box. Then enter your credentials.
+
+- To connect to the server from a PC, go to file manager, then
+  type \\172.19.83.114 in the top path bar.
+  Then enter your credentials.
+
+
+## How can I run batch analysis using GA3 in Nikon Elements?
+
+To run GA3 in batch and get your results in a nice table, you need to
+add Cumulative Results after you have accumulated your records in a
+nicely formatted table. This will add a filename column when you run the
+batch so you will know which file was the source for each group of data.
+
+## Where should I be saving my data?
+
+Save your data locally on the data drive of the microscope PC (Drive D,
+E, F, G, or H: depending on the microscope.). Never ever save data to
+the C drive as data found there is automatically and permanently deleted
+to assure the system can run smoothly for everyone. When you are done
+imaging, upload your data to a network location of your choice or use a
+USB stick. When we need more space on the data drives, we delete the
+oldest files first. Long term storage is not the responsibility of the
+LMF. You should check with your advisor on their plan for data
+management, accessibility, and storage.

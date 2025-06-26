@@ -33,23 +33,23 @@ def chat_fn(message, history):
             try:
                 result = response.json()
                 print(f"Response JSON: {result}")
-                answer = result.get("answer", "⚠️ No answer in response")
+                answer = result.get("answer", "No answer in response")
             except json.JSONDecodeError as e:
                 print(f"JSON decode error: {e}")
                 print(f"Raw response: {response.text}")
-                answer = f"⚠️ Invalid JSON response: {response.text[:200]}"
+                answer = f"Invalid JSON response: {response.text[:200]}"
         else:
             print(f"HTTP Error: {response.status_code}")
             print(f"Response text: {response.text}")
-            answer = f"⚠️ Backend error (HTTP {response.status_code}): {response.text[:200]}"
+            answer = f"Backend error (HTTP {response.status_code}): {response.text[:200]}"
         
         print(f"Final answer: {answer}")
         return answer
         
     except requests.exceptions.ConnectionError:
-        return "⚠️ Cannot connect to backend. Make sure the backend server is running on localhost:8000"
+        return "Cannot connect to backend. Make sure the backend server is running on localhost:8000"
     except Exception as e:
-        error_msg = f"⚠️ Frontend error: {str(e)}"
+        error_msg = f"Frontend error: {str(e)}"
         print(error_msg)
         return error_msg
 
